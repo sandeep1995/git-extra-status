@@ -1,6 +1,15 @@
 # git-extra-status
 Get more information for a single or multiple repositories with a single command.
 
+## Inspiration
+Simultaneously working with multiple git repositories can be really annoying. 
+Like the knowing the current branch names, is there anything to pull or push,
+or Do I have any uncommitted changes?
+
+`ges`  tries to solve this problem.
+
+
+
 ## Installation
 
 1. Clone the repository in your home directory
@@ -24,4 +33,4 @@ Go to any folder with multiple git repositories and then execute
  ```bash
  ges *
  ```
-![Detail Example](https://user-images.githubusercontent.com/12299906/42509246-f63e6886-8468-11e8-855f-08bb12a5cc1c.png)
+![Detail Example](https://user-images.githubusercontent.com/12299906/42510456-920ea61a-846c-11e8-80c2-598268ece9ee.png)
