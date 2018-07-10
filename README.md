@@ -1,4 +1,5 @@
 # git-extra-status
+![Logo](https://user-images.githubusercontent.com/12299906/42510774-96235a92-846d-11e8-9788-3eefcf8860d8.png)
 Get more information for a single or multiple repositories with a single command.
 
 ## Inspiration
