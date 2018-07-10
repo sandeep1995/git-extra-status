@@ -20,7 +20,7 @@ for repo in $repos; do
 		BARNCH_NAME=$(git rev-parse --abbrev-ref HEAD)
 		printf " [$(basename "$repo")] - ${BARNCH_NAME}\n"
 		if [[ -n $(git status --porcelain) ]]; then
-			printf "    ${GIT_STATUS} ${RED}x${NC} Uncomitted Changes\n"
+			printf "    ${GIT_STATUS} ${RED}x${NC} Uncommitted Changes\n"
 		else
 			printf "    ${GIT_STATUS}\n"
 		fi
