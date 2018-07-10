@@ -19,7 +19,7 @@ ges
 ````
 ![Git Extra Status Header Image](https://user-images.githubusercontent.com/12299906/42509220-d5184848-8468-11e8-9247-fe9c7c77af2d.png)
 
-## Batch Usage
+### Batch Usage
 Go to any folder with multiple git repositories and then execute
  ```bash
  ges *
