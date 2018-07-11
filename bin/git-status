@@ -1,2 +1,1 @@
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-$DIR/../src/git-status.sh "$@"
+../src/git-status.sh
