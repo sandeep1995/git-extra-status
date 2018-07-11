@@ -1,2 +1,2 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-$DIR/../src/abspath.sh
+$DIR/../src/abspath.sh "$@"
