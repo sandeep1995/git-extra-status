@@ -14,7 +14,7 @@ or Do I have any uncommitted changes?
 
 1. Clone the repository in your home directory
 ```bash
-git clone https://github.com/sandeep1995/git-extra-status.git $HOME
+cd $HOME; git clone https://github.com/sandeep1995/git-extra-status.git
 ```
 2. Add the `bin` path in your global path. You can do it in your `.bash_profile` or `.bashrc` or `.zshrc` file.
 ```
