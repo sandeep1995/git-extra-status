@@ -5,10 +5,6 @@ GREEN='\033[0;32m'
 CYAN='\033[1;36m'
 NC='\033[0m'
 
-if ! git symbolic-ref --short HEAD 2>/dev/null; then
-	echo "${CYAN}?${NC} Deteached HEAD"
-	exit 1
-fi
 
 UPSTREAM=${1:-'@{u}'};
 LOCAL=$(git rev-parse @);
